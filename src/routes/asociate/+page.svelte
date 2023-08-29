@@ -28,8 +28,8 @@
 
 <section class=" bg-slate-100 py-6 flex justify-center">
     <div class=" max-w-6xl w-full py-5 px-6">
-        <h1 class="text-2xl font-bold mb-4">Miembros</h1>
-        <h2 class="text-4xl font-bold text-indigo-600 mb-4 h-16">Empresas miembros</h2>
+        <h1 class="text-2xl font-bold mb-4 text-center sm:text-left">Miembros</h1>
+        <h2 class="text-4xl font-bold text-indigo-600 mb-4 h-16 text-center sm:text-left">Empresas miembros</h2>
         <Empresa
             nombre="Creadores"
             descripcion={descripcionCreadores}
@@ -109,7 +109,7 @@
             <textarea rows="8" class="p-2 w-full mb-6" name="message" placeholder="Mensaje" />
                 <div class="w-full flex justify-center">
                     <input
-                        class=" w-full max-w-xs bg-emerald-500 text-white rounded-md h-8 font-semibold text-md mb-4"
+                        class=" w-full max-w-xs bg-emerald-500 text-white rounded-md h-8 font-semibold text-md"
                         type="submit"
                         value="Enviar"
                     />

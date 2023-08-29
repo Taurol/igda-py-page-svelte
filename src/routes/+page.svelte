@@ -8,7 +8,7 @@
 		src="assets/images/eventos/ggj21/banner.jpg"
 		alt="main-banner"
 	/>
-	<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+	<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-5/6 sm:w-full sm:max-w-lg">
 		<GgjInfo />
 	</div>
 </section>

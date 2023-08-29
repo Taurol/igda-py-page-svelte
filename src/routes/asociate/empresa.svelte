@@ -15,6 +15,4 @@
 		<h4 class="font-bold text-2xl mb-4">{nombre}</h4>
 		<p class=" font-normal text-lg"><small>{descripcion}</small></p>
 	</div>
-
-	<br />
 </div>
