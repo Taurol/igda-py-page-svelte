@@ -1,7 +1,7 @@
 <footer>
 	<section class=" bg-cyan-200 py-14 flex justify-center">
 		<div class="max-w-screen-xl w-full px-6">
-			<div class="flex md:flex-row flex-col w-full justify-between">
+			<div class="flex md:flex-row flex-col w-full justify-between gap-4">
 				<div class=" max-w-3xl w-full flex flex-col gap-4">
 					<h2 class="font-bold text-2xl">
 						¡Formá parte de la comunidad de desarrolladores de videojuegos de Paraguay y hagamos
@@ -17,7 +17,7 @@
 						<a href="/asociate" class=" text-white font-semibold">¡Sé parte de IGDA PARAGUAY!</a>
 					</div>
 				</div>
-				<div class="flex flex-col items-end gap-4">
+				<div class="flex flex-col md:items-end gap-4 items-center ">
 					<h3 class=" font-semibold text-xl">¡Seguínos!</h3>
 					<div class="flex flex-row gap-2">
 						<a
@@ -85,14 +85,14 @@
 	</section>
 	<section class=" bg-slate-600 py-14 flex justify-center">
 		<div class="max-w-screen-xl w-full px-6">
-			<div class="flex flex-col sm:flex-row justify-between">
+			<div class="flex flex-col sm:flex-row justify-between sm:items-start items-center gap-6">
 				<a href="/contacto">
 					<img src="/assets/images/logo-footer.png" alt="Logo IGDA Py"/>
 				</a>
 
-				<div class="w-48">
+				<div class="w-48 text-center sm:text-left">
 					<h5 class=" text-2xl text-white font-bold mb-4">ENLACES</h5>
-					<ul class="flex flex-col items-start font-medium gap-2 text-gray-400">
+					<ul class="flex flex-col font-medium gap-2 text-gray-400">
 						<li>
 							<a target="_blank" href="https://www.facebook.com/groups/gamedevparaguay/"
 								>Comunidad GameDevPY</a
@@ -105,9 +105,9 @@
 					</ul>
 				</div>
 
-				<div class=" w-24">
+				<div class="w-24 text-center">
 					<h5 class=" text-2xl text-white font-bold mb-4">IGDA PY</h5>
-					<ul class="flex flex-col items-center font-medium gap-3">
+					<ul class="flex flex-col font-medium gap-3">
 						<li><a class="text-gray-400" href="/about">Nosotros</a></li>
 						<li><a class="text-gray-400" href="/beneficios">Beneficios</a></li>
 						<li><a class="text-gray-400" href="/asociate">Asociate</a></li>
@@ -115,14 +115,14 @@
 					</ul>
 				</div>
 
-				<div class="flex flex-col w-72  text-right">
+				<div class="flex flex-col w-72 text-center sm:text-right">
 					<h5 class="text-2xl text-white font-bold mb-4 text-righ">IGDA PARAGUAY</h5>
 					<p class=" text-gray-400 font-medium">
 						International Game Developer Association Chapter Paraguay
 					</p>
 				</div>
 			</div>
-			<p class=" text-gray-400 font-medium mt-10">Copyright © 2023 IGDA Paraguay.</p>
+			<p class=" text-gray-400 font-medium mt-10 text-center sm:text-start">Copyright © 2023 IGDA Paraguay.</p>
 		</div>
 	</section>
 </footer>

@@ -29,7 +29,7 @@
 <section class=" bg-slate-100 py-6 flex justify-center">
     <div class=" max-w-6xl w-full py-5 px-6">
         <h1 class="text-2xl font-bold mb-4">Miembros</h1>
-        <h2 class="text-4xl font-bold text-indigo-600 mb-4">Empresas miembros</h2>
+        <h2 class="text-4xl font-bold text-indigo-600 mb-4 h-16">Empresas miembros</h2>
         <Empresa
             nombre="Creadores"
             descripcion={descripcionCreadores}
@@ -61,9 +61,9 @@
             link={linkWarani}
         />
     
-        <h2 class=" text-4xl font-bold text-indigo-700 my-4">¡Asociate!</h2>
+        <h2 class=" text-4xl font-bold text-indigo-700 my-4 text-center sm:text-left">¡Asociate!</h2>
     
-        <div class="text-lg">
+        <div class="text-lg text-center sm:text-left">
             <p class="text-slate-900 font-bold mb-4">
                 ¡Sé parte de la comunidad de desarrolladores de videojuegos de Paraguay y aprovechá los
                 BENEFICIOS exlusivos!
