@@ -35,6 +35,6 @@
 
 <svelte:window bind:scrollY />
 
-<section class=" z-50 fixed top-0 min-w-full bg-white {isHeaderVisible ? 'translate-y-0' : '-translate-y-full' } duration-300">
+<section class=" z-50 fixed top-0 min-w-full {isHeaderVisible ? 'translate-y-0' : '-translate-y-full' } duration-300">
 	<slot />
 </section>
