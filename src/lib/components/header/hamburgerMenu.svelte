@@ -23,7 +23,7 @@
 </script>
 <section use:clickOutside on:click_outside={handleClickOutside}>
 
-    <nav class="bg-white dark:bg-gray-800 dark:border-gray-700 h-32 lg:hidden">
+    <nav class="bg-white h-32 lg:hidden">
         <div class="max-w-screen-xl flex flex-row items-center justify-between h-full px-5">
             <a href="/">
                 <img src="assets/logo.png" alt="Logo IGDA Py" class="inline-block" />
@@ -60,7 +60,7 @@
         id="navbar-hamburger"
     >
         <ul
-            class="w-full flex flex-col gap-4 font-medium mt-4 rounded-lg bg-white dark:bg-gray-800 dark:border-gray-700"
+            class="w-full flex flex-col gap-4 font-medium mt-4 rounded-lg bg-white"
         >
             <li>
                 <a
