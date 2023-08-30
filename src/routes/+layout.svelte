@@ -7,8 +7,11 @@ import VanishingHeader from "$lib/components/header/vanishingHeader.svelte";
   </script>
   
   <VanishingHeader>
-    <HeaderContent></HeaderContent>
-    <HamburgerMenu></HamburgerMenu>
+    <div class="bg-white">
+      <HeaderContent></HeaderContent>
+      <HamburgerMenu></HamburgerMenu>
+    </div>
+    
   </VanishingHeader>
   <section class="mt-32">
     <slot />
