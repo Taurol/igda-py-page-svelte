@@ -1,7 +1,7 @@
 <div class="max-w-screen-xl mx-auto h-32 px-5 hidden lg:block">
     <nav class=" flex flex-row items-center justify-between h-full">
         <a href="/">
-            <img src="assets/logo.png" alt="Logo IGDA Py" class="inline-block">
+            <img src="assets/logo.png" alt="Logo IGDA Py" class="w-full h-full">
         </a>
         <div class="w-max ">
             <div class=" text-slate-900 font-semibold inline-block space-x-6">

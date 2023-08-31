@@ -2,9 +2,9 @@
 	import GgjInfo from '$lib/components/ggjInfo.svelte';
 </script>
 
-<section class="w-full max-h-128 relative">
+<section class="w-full max-h-128 min-h-min relative">
 	<img
-		class="object-cover w-full max-h-128"
+		class="object-cover w-full max-h-128 h-full"
 		src="assets/images/eventos/ggj21/banner.jpg"
 		alt="main-banner"
 	/>
