@@ -1,6 +1,9 @@
 <script>
 	import SvelteMarkdown from 'svelte-markdown';
-    export let markdownData;
+    /**
+	 * @type {any}
+	 */
+     export let markdownData;
 </script>
 
 <section class=" bg-slate-100 flex justify-center">

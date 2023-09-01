@@ -1,5 +1,6 @@
 <script>
 	import GgjInfo from '$lib/components/ggjInfo.svelte';
+	import RelatedLinks from '$lib/components/relatedLinks.svelte';
 </script>
 
 <section class="w-full max-h-128 min-h-min relative">
@@ -11,4 +12,10 @@
 	<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-5/6 sm:w-full sm:max-w-lg">
 		<GgjInfo />
 	</div>
+</section>
+<section class="w-full min-h-min flex justify-center bg-slate-100">
+	<div class="my-6 max-w-7xl w-full p-6">
+		<RelatedLinks />
+	</div>
+	
 </section>

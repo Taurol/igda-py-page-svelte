@@ -29,7 +29,7 @@
 		<div
 			class=" w-40 rounded-md h-10 bg-blue-800 m-auto object-center flex items-center justify-center"
 		>
-			<a href="/eventos/ggj2021" class="font-semibold text-sm text-white">MÁS INFORMACIÓN</a>
+			<a href="/eventos/ggj2021" class="font-semibold text-sm text-white" aria-label="Mas Informacion">MÁS INFORMACIÓN</a>
 		</div>
 	</div>
 </section>
