@@ -26,7 +26,7 @@
     <nav class="bg-white h-32 lg:hidden">
         <div class="max-w-screen-xl flex flex-row items-center justify-between h-full px-5">
             <a href="/">
-                <img src="assets/logo.png" alt="Logo IGDA Py" class="w-full h-full" />
+                <img src="/assets/logo.png" alt="Logo IGDA Py" class="w-full h-full" />
             </a>
             <button
                 on:click={toggleMenu}
